@@ -1,14 +1,13 @@
 ## Six Feet Under Sparql Query
 
 
+### 1. Who are the cast member of the Six Feet Under Tv Series?
 
-### Who are the cast member of the Six Feet Under Tv Series?
-
-SELECT ?castMember WHERE {
+`SELECT ?castMember WHERE {
    <http://dbpedia.org/resource/Six_Feet_Under_(TV_series)> <http://dbpedia.org/ontology/starring> ?castMember
-}
+}`
 
-### How many episode does it have?
+### 2. How many episode does it have?
 
 
 `SELECT ?castMember WHERE {
@@ -21,6 +20,5 @@ SELECT ?castMember WHERE {
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+
 
