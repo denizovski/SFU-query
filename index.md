@@ -10,14 +10,12 @@
 [Run Query](https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=SELECT+%3FcastMember+WHERE+%7B%0D%0A+++%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FSix_Feet_Under_%28TV_series%29%3E+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring%3E+%3FcastMember%0D%0A%7D&format=text%2Fhtml&CXML_redir_for_subjs=121&CXML_redir_for_hrefs=&timeout=30000&debug=on&run=+Run+Query+)
 
 
-### 2. How many episode does it have?
+### 2. When is the release date of SFU?
 
 
-`SELECT ?castMember WHERE {
-   <http://dbpedia.org/resource/Six_Feet_Under_(TV_series)> <http://dbpedia.org/ontology/starring> ?castMember
-}`
+`SELECT ?releaseDate WHERE { <http://dbpedia.org/resource/Six_Feet_Under_(TV_series)> <http://dbpedia.org/ontology/releaseDate> ?releaseDate }`
 
-[Run Query](https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=SELECT+%3FcastMember+WHERE+%7B%0D%0A+++%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FSix_Feet_Under_%28TV_series%29%3E+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring%3E+%3FcastMember%0D%0A%7D&format=text%2Fhtml&CXML_redir_for_subjs=121&CXML_redir_for_hrefs=&timeout=30000&debug=on&run=+Run+Query+)
+[Run Query](https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=SELECT+%3FreleaseDate+WHERE+%7B+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FSix_Feet_Under_%28TV_series%29%3E+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FreleaseDate%3E+%3FreleaseDate+%7D&format=text%2Fhtml&timeout=30000&signal_void=on&signal_unconnected=on)
 
 
 
@@ -40,4 +38,4 @@
 
 `SELECT ?composer WHERE { <http://dbpedia.org/resource/Six_Feet_Under_(TV_series)> <http://dbpedia.org/ontology/composer> ?composer }`
 
-[Run Query] (https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=SELECT+%3Fcomposer+WHERE+%7B+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FSix_Feet_Under_%28TV_series%29%3E+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2Fcomposer%3E+%3Fcomposer+%7D&format=text%2Fhtml&timeout=30000&signal_void=on&signal_unconnected=on)
+[Run Query](https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=SELECT+%3Fcomposer+WHERE+%7B+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FSix_Feet_Under_%28TV_series%29%3E+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2Fcomposer%3E+%3Fcomposer+%7D&format=text%2Fhtml&timeout=30000&signal_void=on&signal_unconnected=on)
