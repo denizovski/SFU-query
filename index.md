@@ -65,7 +65,6 @@ WHERE {
 
 ### Wikidata/linked Data Explained
 
-![](img/wiki.jpeg)
+![](img/wiki.jpeg =250x)
 
-![Click here to see better](img/wiki.jpeg)
 
