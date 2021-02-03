@@ -65,6 +65,6 @@ WHERE {
 
 ### Wikidata/linked Data Explained
 
-![](img/wiki.jpeg){:height="800px" width="1000px"}
+![](img/wiki.jpeg){:height="740px" width="580px"}
 
 
