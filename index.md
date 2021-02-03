@@ -68,8 +68,8 @@ WHERE {
 ![](img/wiki.jpeg)
 
 
-![](img.wiki2.jpeg)
+![](img/wiki2.jpeg)
 
 
-![](img.wiki3.jpeg)
+![](img/wiki3.jpeg)
 
