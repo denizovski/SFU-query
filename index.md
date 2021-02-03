@@ -67,9 +67,12 @@ WHERE {
 
 ![](img/wiki.jpeg)
 
-
+### This is a small dataset that details some information about director in the Six Feet Under series.
 ![](img/wiki2.jpeg)
-
-
+## Graph version of dataset:
 ![](img/wiki3.jpeg)
+
+### In a linked data model, the data in the first row of the table above would be represented as:
+
+![](img/wiki4.jpeg)
 
