@@ -66,3 +66,6 @@ WHERE {
 ### Wikidata/linked Data Explained
 
 ![](img/wiki.jpeg)
+
+![Click here to see better](img/wiki.jpeg)
+
