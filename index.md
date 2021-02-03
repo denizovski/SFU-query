@@ -63,3 +63,6 @@ WHERE {
 
 [Run Query](https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=SELECT+%3Ffilm+%3Ftitle+%3Fabstract%0D%0AWHERE+%7B%0D%0A++%3Ffilm+rdf%3Atype+dbo%3ATelevisionShow+.%0D%0A++%3Ffilm+rdfs%3Alabel+%3Ftitle+.%0D%0A++%3Ffilm+dbo%3Aabstract+%3Fabstract+.%0D%0A++FILTER+%28regex+%28%3Ftitle%2C+%22Six+Feet+Under%22%2C+%22en%22%29+%26%26+%28lang%28%3Ftitle%29+%3D+lang%28%3Fabstract%29%29%29+%0D%0A++FILTER+%28LANG%28%3Ftitle%29+%3D+%27en%27%29+%0D%0A%7D%0D%0A%0D%0AORDER+BY+lang%28%3Ftitle%29&format=text%2Fhtml&timeout=30000&signal_void=on&signal_unconnected=on)
 
+### Wikidata/linked Data Explained
+
+![](img/wiki.jpeg)
